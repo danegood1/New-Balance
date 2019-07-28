@@ -1,33 +1,115 @@
-.App {
-  text-align: center;
+:root {
+  --mainRed: #ee2929;
+  --lightRed: #df1717d3;
+  --mainWhite: #fff;
+  --mainDark: #232528;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Roboto", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-title {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.text-red {
+  color: var(--lightRed);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-bright {
+  color: var(--lightRed);
+}
+
+.shop1 {
+  font-size: 0.8rem;
+}
+
+.shop1:hover {
+  color: var(--mainRed);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.shop2 {
+  font-size: 0.8rem;
+}
+
+.shop2:hover {
+  color: var(--mainRed);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.shop3 {
+  font-size: 0.8rem;
+}
+
+.shop3:hover {
+  color: var(--mainRed);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.shop4 {
+  font-size: 0.8rem;
+}
+
+.shop4:hover {
+  color: var(--mainRed);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.men {
+  margin-top: -0.5rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.women {
+  margin-top: -0.5rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.boys {
+  margin-top: -0.5rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.girls {
+  margin-top: -0.5rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainRed);
 }
