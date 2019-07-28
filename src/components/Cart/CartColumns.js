@@ -14,7 +14,7 @@ export default function CartColumns() {
           <p className="text-uppercase font-weight-bold">price</p>
         </div>
         <div className="col-10 mx-auto col-lg-2">
-          <p className="text-uppercase font-weight-bold">quatity</p>
+          <p className="text-uppercase font-weight-bold">quantity</p>
         </div>
         <div className="col-10 mx-auto col-lg-2">
           <p className="text-uppercase font-weight-bold">remove</p>
